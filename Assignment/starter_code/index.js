@@ -10,7 +10,7 @@ function showReadMore(){
 	$('a.readless').show();
 }
 
-$('a.readless').click(hideShowThisOnClick)
+$('a.readless').click(hideShowThisOnClick);
 
 function hideShowThisOnClick(){
 	event.preventDefault();
@@ -26,25 +26,6 @@ function learnMore(){
 	$('#learnmoretext').slideDown();
 	$('a.learnmore').hide();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
